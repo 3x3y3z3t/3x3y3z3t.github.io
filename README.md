@@ -1,4 +1,4 @@
-## [kyaru](kyaru.html)
+## [kyaru](https://3x3y3z3t.github.io/kyaru.html)
 
 プリコネR（Cygames）の[「プリコネフェス2024」ページの「Message」ページ](https://fes.priconne-redive.jp/message/)の下に、ちびぺコリーヌ、キャル、コッコロが走っているアイコンがあります（動くんです）。かわいいからこっちに持って帰って走らせます。
 
