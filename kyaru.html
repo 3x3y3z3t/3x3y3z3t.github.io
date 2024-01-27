@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="style.css" />
+
+<div class="control-panel-wrap">
+    <div class="control-panel">
+        <div class="control-item">
+            <label for="input-chara">キャラ</label>
+            <select id="input-chara" onchange="switchChar()">
+                <option value="peko" selected>やばいですね☆</option>
+                <option value="kyaru">ぶっ殺すぞー</option>
+                <option value="koro">０x０</option>
+            </select>
+        </div>
+
+        <div class="control-item">
+            <label for="input-speed">スピード</label>
+            <input id="input-speed" type="number" value="1.0" min="0.4" max="3.0" step="0.1" oninput="changeSpeed()" />
+        </div>
+
+        <div class="control-item">
+            <input type="checkbox" id="check-fill" oninput="updateFill()" />
+            <label for="check-fill">もっとくれーーー</label>
+        </div>
+
+        <div class="control-item">
+            <a href="README.md">なにこれ！？</a>
+        </div>
+
+    </div>
+    <hr />
+
+    <div><a href="https://fes.priconne-redive.jp/message/">https://fes.priconne-redive.jp/message/</a></div>
+    <div>
+        Copyright
+        <a href="https://www.cygames.co.jp/">&copy; Cygames, Inc.</a>
+        <a href="https://dmmgames.co.jp/">&copy; 2022 EXNOA LLC</a>
+    </div>
+</div>
+
+<div id="main">
+    <div class="anim"></div>
+</div>
+
+<script src="script.js"></script>
